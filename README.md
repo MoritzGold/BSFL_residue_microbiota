@@ -1,8 +1,57 @@
 # BSFL_residue_microbiota
 Data and analyses for the manuscript "Identification of high-abundant bacteria in black soldier fly larvae rearing residues"
 
+# waste_composition.R
+code for analyses of the substrate nutrient composition
+
+### data = waste_composition.xlsx
+
+**Diet:** household_waste or canteen_waste  
+**Replicate:** analyses replicate per diet and parameter  
+**Parameter:** acid detergent fibre (ADF), crude fibre (CF), ash, volatile solids (=organic matter), nitrogen, lipids  
+**Unit:** perdm, % DM of freeze-dried sample, already corrected for residual moisture  
+**Value:** analysis result
+
+### data = non_fibre_carbohydrates.xlsx
+
+**Sheet1:** fructose (see Available Carbohydrates K-ACHDF, Megazyme, Wicklow, Ireland)
+
+**sample:** household_waste, canteen_waste, blank (=water)  
+**blank_ref:** 1 or 2, associated the sample measurment to the respective blank measurement  
+**Analysis_replicate:** technical analyses replicate for same sub-sample  
+**Replicate:** replicate analyes for different sub-samples  
+**sample_weight_g:** sample weight used for the analyes in g  
+**final_volume_mL:** final volume in which the absorbance was determined  
+**A1:** absorbance 1  
+**A2:** absorbance 2  
+**A3:** absorbance 3  
+**moisture_content_perc:** moisture content of the freeze-dried sample in % DM
+
+
+**Sheet1:** glucose (see 
+
+sample
+**blank_ref:**
+**Replicate:**
+**delta_A_1:**
+**delta_A_2:**
+**volume_mL:**
+**weight_mg:**
+**moisture_content_perc:**
+
+
+**Sheet3:** starch (see Total Starch Assay K-TSTA, Megazyme, Wicklow, Ireland)
+**sample:**
+**blank_ref:**
+**Replicate:**
+**delta_A_1:**
+**delta_A_2:**
+**weight_mg:**
+**moisture_content_perc:**
+  
+
 # treatment_performance.R
-code of analyses of the rearing performance indicators
+code for analyses of the rearing performance indicators
 
 ### data = treatment_performance.xlsx
 
@@ -13,7 +62,7 @@ code of analyses of the rearing performance indicators
 **Replicate:** biological replicate per treatment (combination of day, biowaste, type)  
 **Number_larvae_in:** number of larvae placed in container at the beginning of the experiment  
 **Number_Larvae:** number larvae manually counted after removal of the container at this measurement day   
-**DM_Larvae_mg:** dry mass per larvae  
+**DM_Larvae_mg:** dry mass per larvae, in mg per larva    
 **N_Larvae_percDM:** nitrogen content of the freeze-dried larval biomass, in % DM  
 **C_Larvae_percDM:** carbon content of the freeze-dried larval biomass, in % DM  
 **Ash_Larvae_percDM:** ash content of the freeze-dried larval biomass, in % DM  
