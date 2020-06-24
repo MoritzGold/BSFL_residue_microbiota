@@ -8,7 +8,7 @@ code for analyses of the substrate nutrient composition
 
 **Diet:** household_waste or canteen_waste  
 **Replicate:** analyses replicate per diet and parameter  
-**Parameter:** acid detergent fibre (ADF), crude fibre (CF), ash, volatile solids (=organic matter), nitrogen, lipids  
+**Parameter:** acid detergent fibre (ADF), acid detergent fibre (NDF), crude fibre (CF), ash, volatile solids (=organic matter), nitrogen, lipids  
 **Unit:** perdm, % DM of freeze-dried sample, already corrected for residual moisture  
 **Value:** analysis result
 
@@ -20,7 +20,7 @@ code for analyses of the substrate nutrient composition
 **blank_ref:** 1 or 2, associated the sample measurment to the respective blank measurement  
 **Analysis_replicate:** technical analyses replicate for same sub-sample  
 **Replicate:** replicate analyes for different sub-samples  
-**sample_weight_g:** sample weight used for the analyes in g  
+**sample_weight_g:** sample weight used for the analyis in g  
 **final_volume_mL:** final volume in which the absorbance was determined  
 **A1:** absorbance 1  
 **A2:** absorbance 2  
@@ -30,24 +30,24 @@ code for analyses of the substrate nutrient composition
 
 **Sheet1:** glucose (see 
 
-sample
-**blank_ref:**
-**Replicate:**
-**delta_A_1:**
-**delta_A_2:**
-**volume_mL:**
-**weight_mg:**
-**moisture_content_perc:**
+**sample:** household_waste, canteen_waste, blank (=glucose standard) 
+**blank_ref:** 1 or 2, associated the sample measurment to the respective control measurement  
+**Replicate:** replicate analyes for different sub-samples  
+**delta_A_1:** absorbance reading 1 (relative to blank=water)  
+**delta_A_2:** absorbance reading 2 (relative to blank=water)  
+**volume_mL:** final volume in which the absorbance was determined  
+**weight_mg:** sample weight used for the analyis in mg  
+**moisture_content_perc:** moisture content of the freeze-dried sample in % DM
 
 
-**Sheet3:** starch (see Total Starch Assay K-TSTA, Megazyme, Wicklow, Ireland)
-**sample:**
-**blank_ref:**
-**Replicate:**
-**delta_A_1:**
-**delta_A_2:**
-**weight_mg:**
-**moisture_content_perc:**
+**Sheet3:** starch (see Total Starch Assay K-TSTA, Megazyme, Wicklow, Ireland)  
+**sample:** household_waste, canteen_waste, blank (=glucose standard)  
+**blank_ref:** 1 or 2, associated the sample measurment to the respective control measurement  
+**Replicate:** replicate analyes for different sub-samples  
+**delta_A_1:** absorbance reading 1 (relative to blank=water)  
+**delta_A_2:** absorbance reading 2 (relative to blank=water)  
+**weight_mg:** sample weight used for the analyis in mg  
+**moisture_content_perc:** moisture content of the freeze-dried sample in % DM
   
 
 # treatment_performance.R
