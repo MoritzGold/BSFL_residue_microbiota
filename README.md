@@ -27,8 +27,7 @@ code for analyses of the substrate nutrient composition
 **A3:** absorbance 3  
 **moisture_content_perc:** moisture content of the freeze-dried sample in % DM
 
-
-**Sheet1:** glucose (see 
+**Sheet1:** glucose (see D-Glucose GOPOD K-GLUC, Megazyme, Wicklow, Ireland)
 
 **sample:** household_waste, canteen_waste, blank (=glucose standard) 
 **blank_ref:** 1 or 2, associated the sample measurment to the respective control measurement  
@@ -39,7 +38,6 @@ code for analyses of the substrate nutrient composition
 **weight_mg:** sample weight used for the analyis in mg  
 **moisture_content_perc:** moisture content of the freeze-dried sample in % DM
 
-
 **Sheet3:** starch (see Total Starch Assay K-TSTA, Megazyme, Wicklow, Ireland)  
 **sample:** household_waste, canteen_waste, blank (=glucose standard)  
 **blank_ref:** 1 or 2, associated the sample measurment to the respective control measurement  
@@ -49,7 +47,6 @@ code for analyses of the substrate nutrient composition
 **weight_mg:** sample weight used for the analyis in mg  
 **moisture_content_perc:** moisture content of the freeze-dried sample in % DM
   
-
 # treatment_performance.R
 code for analyses of the rearing performance indicators
 
@@ -106,3 +103,27 @@ in the climate chamber.
 **replicate:** replicate per treatment (combination of day, biowaste, type)  
 **parameter:** temp. (=temperature)  
 **value:** temperature in °C  
+
+# phyloseq.R
+Code for metagenomic analyses with phyloseq and vegan
+
+### metedata = code/p529_run190225_MapFile.txt
+
+**SampleID1:**
+**Diet:**
+**Day:**
+**Type:**
+**Type_detail:**
+**Diet_detail:**
+**Others:**
+**BSFL_detail:**
+**Replicate:**
+  
+# ampvis.R
+Code for metagenomic analyses with the ampvis2 package and comparison of our results to the literature
+
+### data = wynants.xlsx
+Data from Wynants, E., Frooninckx, L., Crauwels, S., Verreth, C., De Smet, J., Sandrock, C., et al. (2018). Assessing the Microbiota of Black Soldier Fly Larvae (Hermetia illucens) Reared on Organic Waste Streams on Four Different Locations at Laboratory and Large Scale. Microb. Ecol. 
+
+### data = Bruno.xlsx
+Data from Bruno, D., Bonelli, M., De Filippis, F., Di Lelio, I., Tettamanti, G., Casartelli, M., et al. (2019). The intestinal microbiota of Hermetia illucens larvae is affected by diet and shows a diverse composition in the different midgut regions. Appl. Environ. Microbiol. 85, e01864-18. 
