@@ -105,19 +105,19 @@ in the climate chamber.
 **value:** temperature in °C  
 
 # phyloseq.R
-Code for metagenomic analyses with phyloseq and vegan
+Code for metagenomic analyses with phyloseq and vegan. Uses psychem from physical_chemical_temp.R and performance_messy from treatment_performance.R.
 
 ### metedata = code/p529_run190225_MapFile.txt
 
-**SampleID1:**
-**Diet:**
-**Day:**
-**Type:**
-**Type_detail:**
-**Diet_detail:**
-**Others:**
-**BSFL_detail:**
-**Replicate:**
+**SampleID1:** Sample identifier. Syntax xxyzw - x=Day, y=Diet, z=Type, w=Replicate.
+**Diet:**  Diet used for larval rearing. C=canteen waste, H=household waste, S=sterile canteen waste.
+**Day:** Rearing day. 0, 3, 6, 9, 12. 0 marks the beginning of the experiment with larvae having a weight of 0.5 mg DM. Day 12 marks harvesting of larvae from the residue.
+**Type:**  Larvae, residue, control or mock samples.
+**Type_detail:**  More detailed description of type.
+**Diet_detail:** Abbreviation of diet.
+**Others:** Full description diet.
+**BSFL_detail:** Denotes whether samples was with ot without larvae.
+**Replicate:** Replicate of diet, day and sample type combination.
   
 # ampvis.R
 Code for metagenomic analyses with the ampvis2 package and comparison of our results to the literature
