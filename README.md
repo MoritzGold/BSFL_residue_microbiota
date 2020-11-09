@@ -1,5 +1,5 @@
 # BSFL_residue_microbiota
-Data and analyses for the manuscript "Identification of high-abundant bacteria in black soldier fly larvae rearing residues"
+Data and analyses for the manuscript "Identification of Bacteria in Two Food Waste Black Soldier Fly Larvae Rearing Residues" published in Frontiers in Microbiology
 
 # waste_composition.R
 code for analyses of the substrate nutrient composition
