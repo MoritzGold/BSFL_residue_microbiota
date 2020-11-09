@@ -1,0 +1,102 @@
+SampleID1	Diet	Day	Type	Type_detail	Diet_detail	Others	BSFL_detail	Replicate
+0CR1	C	0	residue	waste	CW	Canteen waste	with BSFL	1
+0CRR	CF	0	poulty_feed_residue	poulty_feed_residue				1
+0HR1	H	0	residue	waste	HW	Household waste	with BSFL	1
+0L3	initital_larvae	0	larvae	initital_larvae	L0			2
+0SR1	S	0	residue	waste	S-CW	Sterile canteen waste	with BSFL	1
+12CL1	C	12	larvae	larvae	CW	Canteen waste		1
+12CL2	C	12	larvae	larvae	CW	Canteen waste		2
+12CL3	C	12	larvae	larvae	CW	Canteen waste		3
+12CL4g	C	12	larvae	larvae	CW	Canteen waste		4
+12CL4	C	12	larvae	larvae	CW	Canteen waste		4
+12CO1	C	12	residue	No_larvae	CW-0	Canteen waste	without BSFL	1
+12CO3	C	12	residue	No_larvae	CW-0	Canteen waste	without BSFL	2
+12CR1	C	12	residue	residue	CW	Canteen waste	with BSFL	1
+12CR2	C	12	residue	residue	CW	Canteen waste	with BSFL	2
+12CR3	C	12	residue	residue	CW	Canteen waste	with BSFL	3
+12CR4	C	12	residue	residue	CW	Canteen waste	with BSFL	4
+12H01	H	12	residue	No_larvae	HW-0	Household waste	without BSFL	1
+12HL1	H	12	larvae	larvae	HW	Household waste		1
+12HL2	H	12	larvae	larvae	HW	Household waste		2
+12HL3g	H	12	larvae	larvae	HW	Household waste		3
+12HL3-strich	H	12	larvae	larvae	HW	Household waste		3
+12HR1	H	12	residue	residue	HW	Household waste	with BSFL	1
+12HR2	H	12	residue	residue	HW	Household waste	with BSFL	2
+12HR3	H	12	residue	residue	HW	Household waste	with BSFL	3
+12S02	S	12	residue	No_larvae	S-CW-0	Sterile canteen waste	without BSFL	2
+12SL1	S	12	larvae	larvae	S-CW	Sterile canteen waste		1
+12SL3	S	12	larvae	larvae	S-CW	Sterile canteen waste		3
+12SO1	S	12	residue	No_larvae	S-CW-0	Sterile canteen waste	without BSFL	1
+12SO3	S	12	residue	No_larvae	S-CW-0	Sterile canteen waste	without BSFL	3
+12SR1	S	12	residue	residue	S-CW	Sterile canteen waste	with BSFL	1
+12SR3	S	12	residue	residue	S-CW	Sterile canteen waste	with BSFL	3
+3CL1	C	3	larvae	larvae	CW	Canteen waste		1
+3CL2	C	3	larvae	larvae	CW	Canteen waste		2
+3CL3	C	3	larvae	larvae	CW	Canteen waste		3
+3CR1	C	3	residue	residue	CW	Canteen waste	with BSFL	1
+3CR2	C	3	residue	residue	CW	Canteen waste	with BSFL	2
+3CR3	C	3	residue	residue	CW	Canteen waste	with BSFL	3
+3HL1	H	3	larvae	larvae	HW	Household waste		1
+3HL2	H	3	larvae	larvae	HW	Household waste		2
+3HR1	H	3	residue	residue	HW	Household waste	with BSFL	1
+3HR2	H	3	residue	residue	HW	Household waste	with BSFL	2
+3SL1	S	3	larvae	larvae	S-CW	Sterile canteen waste		1
+3SL2	S	3	larvae	larvae	S-CW	Sterile canteen waste		2
+3SL3	S	3	larvae	larvae	S-CW	Sterile canteen waste		3
+3SR1	S	3	residue	residue	S-CW	Sterile canteen waste	with BSFL	1
+3SR2	S	3	residue	residue	S-CW	Sterile canteen waste	with BSFL	2
+3SR3	S	3	residue	residue	S-CW	Sterile canteen waste	with BSFL	3
+6CL1	C	6	larvae	larvae	CW	Canteen waste		1
+6CL2	C	6	larvae	larvae	CW	Canteen waste		2
+6CL3	C	6	larvae	larvae	CW	Canteen waste		3
+6CR1	C	6	residue	residue	CW	Canteen waste	with BSFL	1
+6CR2	C	6	residue	residue	CW	Canteen waste	with BSFL	2
+6CR3	C	6	residue	residue	CW	Canteen waste	with BSFL	3
+6HL1	H	6	larvae	larvae	HW	Household waste		1
+6HL2	H	6	larvae	larvae	HW	Household waste		2
+6HL3	H	6	larvae	larvae	HW	Household waste		3
+6HR1	H	6	residue	residue	HW	Household waste	with BSFL	1
+6HR2	H	6	residue	residue	HW	Household waste	with BSFL	2
+6HR3	H	6	residue	residue	HW	Household waste	with BSFL	3
+6SL1	S	6	larvae	larvae	S-CW	Sterile canteen waste		1
+6SL2	S	6	larvae	larvae	S-CW	Sterile canteen waste		2
+6SL3	S	6	larvae	larvae	S-CW	Sterile canteen waste		3
+6SR1	S	6	residue	residue	S-CW	Sterile canteen waste	with BSFL	1
+6SR2	S	6	residue	residue	S-CW	Sterile canteen waste	with BSFL	2
+6SR3	S	6	residue	residue	S-CW	Sterile canteen waste	with BSFL	3
+9CL1	C	9	larvae	larvae	CW	Canteen waste		1
+9CL2	C	9	larvae	larvae	CW	Canteen waste		2
+9CL3	C	9	larvae	larvae	CW	Canteen waste		3
+9CR1	C	9	residue	residue	CW	Canteen waste	with BSFL	1
+9CR2	C	9	residue	residue	CW	Canteen waste	with BSFL	2
+9CR3	C	9	residue	residue	CW	Canteen waste	with BSFL	3
+9HL1	H	9	larvae	larvae	HW	Household waste		1
+9HL2	H	9	larvae	larvae	HW	Household waste		2
+9HL3	H	9	larvae	larvae	HW	Household waste		3
+9HR1	H	9	residue	residue	HW	Household waste	with BSFL	1
+9HR2	H	9	residue	residue	HW	Household waste	with BSFL	2
+9HR3	H	9	residue	residue	HW	Household waste	with BSFL	3
+9SR3	S	9	residue	residue	S-CW	Sterile canteen waste	with BSFL	3
+C-day-1	Control	NA	control_DNA	control_DNA				6
+C-day-2a	Control	NA	control_DNA	control_DNA				3
+C-day-2b	Control	NA	control_DNA	control_DNA				4
+C-day-2c	Control	NA	control_DNA	control_DNA				5
+C-day-3	Control	NA	control_DNA	control_DNA				2
+C-day-4	Control	NA	control_DNA	control_DNA				1
+CF	CF	0	residue	waste				1
+Mock1-L	Mock1_GDC	NA	Mock	Mock				1
+Mock1-R	Mock1_GDC	NA	Mock	Mock				2
+NC01	Control	NA	control_lib_prep	control_lib_prep_larvae				1
+NC02	Control	NA	control_lib_prep	control_lib_prep_larvae				2
+NC03	Control	NA	control_lib_prep	control_lib_prep_larvae				3
+NC04	Control	NA	control_lib_prep	control_lib_prep_residue				4
+NC05	Control	NA	control_lib_prep	control_lib_prep_residue				5
+NC06	Control	NA	control_lib_prep	control_lib_prep_larvae				6
+NC07	Control	NA	control_lib_prep	control_lib_prep_larvae				7
+NC08	Control	NA	control_lib_prep	control_lib_prep_larvae				8
+NC09	Control	NA	control_lib_prep	control_lib_prep_residue				9
+NC10	Control	NA	control_lib_prep	control_lib_prep_residue				10
+NC11	Control	NA	control_lib_prep	control_lib_prep_residue				11
+NC12	Control	NA	control_lib_prep	control_lib_prep_larvae				12
+NC13	Control	NA	control_lib_prep	control_lib_prep_larvae				13
+OL1	initital_larvae	0	larvae	initital_larvae	L0			1
